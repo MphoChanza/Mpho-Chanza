@@ -228,3 +228,17 @@ footer h2 {
     font-size: 1rem;
   }
 }
+.contact-links a:last-child {
+  background: #e67e22;
+  color: #fff;
+  padding: 10px 15px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.2s ease, transform 0.2s ease;
+}
+
+.contact-links a:last-child:hover {
+  background: #d35400;
+  transform: scale(1.05);
+}

@@ -242,3 +242,40 @@ footer h2 {
   background: #d35400;
   transform: scale(1.05);
 }
+.project-links {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.live-btn, .repo-btn {
+  flex: 1;
+  text-align: center;
+  padding: 8px 12px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.2s ease, transform 0.2s ease;
+}
+
+/* Live button styling */
+.live-btn {
+  background: #1abc9c;
+  color: #fff;
+}
+
+.live-btn:hover {
+  background: #16a085;
+  transform: scale(1.05);
+}
+
+/* Repo button styling */
+.repo-btn {
+  background: #2c3e50;
+  color: #fff;
+}
+
+.repo-btn:hover {
+  background: #34495e;
+  transform: scale(1.05);
+}

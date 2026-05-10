@@ -184,3 +184,47 @@ footer h2 {
   background: #16a085;
   transform: scale(1.05);
 }
+.hero {
+  background: linear-gradient(135deg, #1abc9c, #16a085);
+  color: #fff;
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.hero-content h1 {
+  font-size: 3rem;
+  margin-bottom: 15px;
+}
+
+.hero-content p {
+  font-size: 1.3rem;
+  margin-bottom: 25px;
+  opacity: 0.9;
+}
+
+.hero-btn {
+  display: inline-block;
+  background: #2c3e50;
+  color: #fff;
+  padding: 12px 20px;
+  margin: 5px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.2s ease, transform 0.2s ease;
+}
+
+.hero-btn:hover {
+  background: #34495e;
+  transform: scale(1.05);
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .hero-content h1 {
+    font-size: 2rem;
+  }
+  .hero-content p {
+    font-size: 1rem;
+  }
+}

@@ -279,3 +279,23 @@ footer h2 {
   background: #34495e;
   transform: scale(1.05);
 }
+.contact-links a {
+  display: inline-block;
+  margin: 5px;
+  padding: 10px 15px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.2s ease, transform 0.2s ease;
+}
+
+/* LinkedIn button */
+.contact-links a:last-child {
+  background: #0077b5; /* LinkedIn blue */
+  color: #fff;
+}
+
+.contact-links a:last-child:hover {
+  background: #005582;
+  transform: scale(1.05);
+}
